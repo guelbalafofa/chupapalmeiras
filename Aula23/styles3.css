@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;}
+#div1{
+    text-align: center;
+}
+header{
+    background-color: black;
+    width: 100vw;    
+    color: white;
+    }
+header div{
+    display: inline-block;
+    padding: 20px;
+}
+#texto{
+    background-color: #26d826;
+    padding: 30px;
+    height: 700px;
+}
+#home{
+    background-color: blue;
+}

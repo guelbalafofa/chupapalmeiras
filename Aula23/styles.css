@@ -1,0 +1,23 @@
+div{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid black;
+}
+#bloco1{
+    background-color: violet;
+    position: relative;
+    z-index: 2;
+}
+#bloco2{
+    background-color: blueviolet;
+    position: relative;
+    top: -100px;
+    z-index: 1;
+}
+#bloco3{
+    background-color: blue;
+    position: relative;
+    top: -200px;
+    z-index: 0;
+}

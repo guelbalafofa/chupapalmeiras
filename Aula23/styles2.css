@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: black;
+    width: 100vw;
+    text-align: center;
+    color: whtite;
+    z-index: 1;
+}
+header div{
+    display: inline-block;
+    background-color: salmon;
+    padding: 10px;
+    margin: 10px 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#image{
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+}
+p{
+    width: 300px;
+   z-index: 2;
+    background-color: white;
+}
+#p1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+#p2{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
