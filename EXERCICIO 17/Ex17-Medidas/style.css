@@ -1,0 +1,14 @@
+body {
+  background-color: #11c76f;
+  color: #35362e;
+}
+
+h1 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+#caixa {
+  background-color: #426dff;
+  width: 100%;
+}
