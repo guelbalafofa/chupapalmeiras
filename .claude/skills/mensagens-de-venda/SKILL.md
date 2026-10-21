@@ -1,6 +1,6 @@
 ---
 name: mensagens-de-venda
-description: "Cria, reescreve e revisa mensagens de venda para leads que chegaram pelo site (formulário, pedido de orçamento, chat, botão de WhatsApp): primeira resposta, follow-ups, resposta a objeções, proposta sem resposta e reativação de lead frio. Use quando o usuário pedir para melhorar ou escrever uma mensagem para um lead, cliente em potencial, orçamento ou proposta, quando disser que o lead não respondeu, ou quando colar um rascunho de WhatsApp, e-mail ou DM de venda."
+description: "Cria, reescreve e revisa mensagens de venda para leads: quem chegou pelo site (formulário, orçamento, chat, botão de WhatsApp) e empresas abordadas na prospecção de venda de sites, quando o objetivo é o lead responder que quer ver o modelo de site. Cobre primeira mensagem, follow-ups, objeções, proposta sem resposta e reativação de lead frio. Use quando o usuário pedir para melhorar ou escrever uma mensagem para um lead, cliente em potencial, orçamento ou proposta, quando disser que o lead não respondeu, ou quando colar um rascunho de WhatsApp, e-mail ou DM de venda."
 argument-hint: "[canal] [etapa] [rascunho ou dados do lead]"
 ---
 
@@ -106,6 +106,34 @@ Não pergunte "viu a proposta?". Destaque um ponto da proposta ligado ao que o l
 ### Reativação de lead antigo
 Cite o pedido original e a data aproximada, traga um motivo real para voltar a falar (preço novo, agenda aberta, produto novo) e faça uma pergunta simples.
 
+### Prospecção: fazer o lead pedir para ver o modelo de site
+Para quem vende sites e chama a empresa primeiro (achou no Google Maps, no Instagram, por indicação). A primeira mensagem tem um trabalho só: arrancar um "quero ver" ou "pode mandar". Preço, pacote e reunião ficam para depois.
+
+- **Diga quem é na primeira linha:** nome, o que faz e a cidade. Número desconhecido sem identificação parece golpe.
+- **Mostre um detalhe real da empresa** (nome, bairro, serviço, algo do Instagram ou do Google). É a prova de que a mensagem foi escrita para ela.
+- **Peça permissão antes de mandar o link.** Link vindo de número desconhecido parece golpe, e a pergunta obriga o lead a responder para receber.
+- **Termine com sim ou não,** ou diga a resposta esperada: "Se quiser ver, é só responder 'quero ver'."
+- **Sem preço na primeira mensagem.** Se o lead perguntar, responda com a faixa real e volte para o modelo.
+- **"Montei um modelo pra vocês" só se for verdade.** Se for um modelo pronto por segmento, diga "modelo pra [segmento]".
+
+Primeira mensagem:
+> Oi, [Nome]! Sou o [Seu nome], faço sites pra [segmento] aqui em [cidade].
+> Vi o Instagram da [Empresa] e montei um modelo de site com as fotos e os serviços de vocês. Posso te mandar o link pra você dar uma olhada?
+
+Sem resposta:
+- **D+1:** um detalhe novo do modelo ("já tá com o cardápio e os horários de vocês. Te mando aqui?").
+- **D+3:** um print do topo do modelo, como imagem e sem link: "Esse é o começo da página da [Empresa]. Quer ver ela inteira?"
+- **D+7, despedida:** "Não vou mais te incomodar. Se um dia quiser ver o modelo da [Empresa], é só mandar um 'quero ver' aqui."
+
+Respostas comuns:
+| O lead diz | Caminho |
+|---|---|
+| "Quero ver" / "Pode mandar" | Mande o link, cite 1 ou 2 coisas que estão no modelo e pergunte o que achou. |
+| "Quanto custa?" | Faixa real ("a partir de R$ [valor], com [o que inclui]") e ofereça ver o modelo antes. |
+| "Já tenho site" | Ofereça comparar, citando um ponto real em que o modelo é diferente. |
+| "Como conseguiu meu número?" | Diga a verdade (perfil no Google ou Instagram) e ofereça parar. |
+| "Não tenho interesse" | Agradeça e pare. |
+
 ## 5. Como entregar
 
 Ao **melhorar um rascunho**, devolva:
@@ -141,6 +169,6 @@ Ao **criar do zero**, entregue o mesmo. Se for uma sequência de follow-up, most
 
 ## 7. Limites
 
-- **Só para leads que pediram contato (inbound).** Para lista comprada ou disparo em massa, avise sobre a LGPD e as regras do WhatsApp Business (fora da janela de 24 h só é permitido modelo aprovado) em vez de escrever o disparo.
+- **Inbound ou prospecção 1 a 1.** Na prospecção de empresas, cada mensagem é individual, com um detalhe real daquela empresa, enviada ao contato público dela, e o envio para no primeiro "não". Para lista comprada ou disparo em massa, avise sobre a LGPD e as regras do WhatsApp (número que recebe muitos bloqueios e denúncias é banido; na API oficial, fora da janela de 24 h só vale modelo aprovado) em vez de escrever o disparo.
 - **"Não" é "não".** Se o lead pediu para parar, a única mensagem é de encerramento.
 - **Horário:** sugira envio em horário comercial, no fuso do lead.
